@@ -10,7 +10,7 @@ pipeline {
             steps {
                 bat 'docker --version'
                 //bat 'cd C:\ProgramData\Jenkins\.jenkins\workspace\testbuild '
-                bat "docker-compose up -d --build"
+                bat 'docker-compose up -d --build'
             }
         }
     }
